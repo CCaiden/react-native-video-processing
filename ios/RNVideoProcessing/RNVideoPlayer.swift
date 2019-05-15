@@ -9,6 +9,7 @@ import AVFoundation
 import GPUImage
 
 @objc(RNVideoPlayer)
+@objcMembers
 class RNVideoPlayer: RCTView {
     
     let processingFilters: VideoProcessingGPUFilters = VideoProcessingGPUFilters()

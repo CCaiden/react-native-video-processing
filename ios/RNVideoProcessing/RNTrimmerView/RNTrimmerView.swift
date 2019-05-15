@@ -7,6 +7,7 @@ import UIKit
 import AVKit
 
 @objc(RNTrimmerView)
+@objcMembers
 class RNTrimmerView: RCTView, ICGVideoTrimmerDelegate {
     
     var trimmerView: ICGVideoTrimmerView?
