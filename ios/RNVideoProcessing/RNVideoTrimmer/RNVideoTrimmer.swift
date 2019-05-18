@@ -20,6 +20,7 @@ enum QUALITY_ENUM: String {
 }
 
 @objc(RNVideoTrimmer)
+@objcMembers
 class RNVideoTrimmer: NSObject {
 
   @objc func getVideoOrientationFromAsset(asset : AVAsset) -> UIImage.Orientation {
